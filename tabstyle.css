@@ -1,0 +1,174 @@
+body
+{
+	font-family: "Segoe UI", arial, helvetica, freesans, sans-serif;
+	font-size: 90%;
+}
+
+h1
+{
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0;
+}
+
+h2
+{
+	font-size: 1.3em;
+	font-weight: normal;
+	margin: 2em 0 0 0;
+}
+
+p
+{
+	margin: 0.6em 0;
+}
+
+p.tabnav
+{
+	font-size: 1.1em;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+p.tabnav a
+{
+	text-decoration: none;
+	color: #999;
+}
+
+article.tabs
+{
+	position: relative;
+	display: block;
+	width: 320px;
+	height: 660px;
+	margin: 5px;
+}
+
+article.tabs section
+{
+	position: absolute;
+	display: block;
+	top: 1.8em;
+	left: 0;
+	height:600px;
+	padding: 5px 10px;
+	background-color: #222;
+	border-radius: 5px;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	z-index: 0;
+        text-align:left;
+        width:300px;
+}
+
+article.tabs section:first-child
+{
+	z-index: 1;
+}
+
+article.tabs section h2
+{
+	position: absolute;
+	font-size: 1em;
+	font-weight: normal;
+	width: 60px;
+	height: 1.8em;
+	top: -1.8em;
+	left: 10px;
+	padding: 0px;
+	margin: 0;
+	color: #ddd;
+	background-color: #333;
+	border-radius: 5px 5px 0 0;
+}
+
+article.tabs section:nth-child(2) h2
+{
+	left: 62px;
+}
+
+article.tabs section:nth-child(3) h2
+{
+	left: 124px;
+}
+
+article.tabs section:nth-child(4) h2
+{
+	left: 186px;
+}
+
+article.tabs section:nth-child(5) h2
+{
+	left: 248px;
+}
+
+article.tabs section h2 a
+{
+	display: block;
+	width: 100%;
+	line-height: 1.8em;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	outline: 0 none;
+}
+
+article.tabs section,
+article.tabs section h2
+{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+article.tabs section:target,
+article.tabs section:target h2
+{
+	color: #fff;
+	background-color: #222;
+	z-index: 2;
+}
+
+
+/* Demo Buttons */
+
+
+.codrops-demos {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fab3ad;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fab3ad;
+	box-shadow:inset 0px 1px 0px 0px #fab3ad;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fa665a), color-stop(1, #d34639) );
+	background:-moz-linear-gradient( center top, #fa665a 5%, #d34639 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa665a', endColorstr='#d34639');
+	background-color:#fa665a;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-size:11px;
+	font-weight:bold;
+        text-align:center;
+	padding:5px 5px 5px 5px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #98231a;
+       margin-top: 5px;
+        width:50px;
+      
+}
+
+.codrops-demos:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d34639), color-stop(1, #fa665a) );
+	background:-moz-linear-gradient( center top, #d34639 5%, #fa665a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d34639', endColorstr='#fa665a');
+	background-color:#d34639;
+}
+
+.codrops-demos:active {
+	position:relative;
+	top:1px;
+   
+}
