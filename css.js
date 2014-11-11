@@ -11,7 +11,7 @@
  */
 var hn_entries; var hn_feed;
 var hn_feed_url = hn_url_blog.match(/\/$/) ? hn_url_blog : hn_url_blog+"/";
-hn_feed_url += "feeds/posts/default-/hati";
+hn_feed_url += "feeds/posts/default/-/hati";
 
 function hn_createEntries(){
     var entries = hn_feed.entry;
