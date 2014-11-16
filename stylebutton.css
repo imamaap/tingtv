@@ -32,7 +32,8 @@
 	.button.green { background: #67b600; }
 	.button.orange { background: #da8a00; }
 	.button.yellow { background: #b3a400; }
-	.button.turquoise { background: #00b1af; }
+	.button.silver { background: #c0c0c0; }
+   .button.black { background: #000000; } 
 	
 	.button:last-of-type { margin: 0; }
 
