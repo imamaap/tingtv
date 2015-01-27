@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+<channel>
+<channelid>6</channelid><channelalias>b-anime</channelalias><channelindex>2</channelindex><inputstream>udp://0.0.0.0:10001</inputstream><urllow>cl006.stream</urllow><urlmed>cm006.stream</urlmed><urlhig>ch006.stream</urlhig><urlsdp>/live/cl006.sdp</urlsdp><channelmedia>rtp</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>128</channelid><channelalias>b-cinema</channelalias><channelindex>6</channelindex><inputstream>udp://0.0.0.0:10026</inputstream><urllow>cl128.stream</urllow><urlmed>cm128.stream</urlmed><urlhig>ch128.stream</urlhig><urlsdp>/live/ch128.sdp</urlsdp><channelmedia>rtp</channelmedia><appname>live</appname><description>movie channel</description></channel>
+<channel>
+<channelid>129</channelid><channelalias>b-music</channelalias><channelindex>7</channelindex><inputstream>udp://0.0.0.0:10027</inputstream><urllow>cl129.stream</urllow><urlmed>cm129.stream</urlmed><urlhig>ch129.stream</urlhig><urlsdp>/live/ch129.sdp</urlsdp><channelmedia>rtp</channelmedia><appname>live</appname><description>bagantv Music Channell</description></channel>
+<channel>
+<channelid>2</channelid><channelalias>trans7</channelalias><channelindex>8</channelindex><inputstream>rtsp://119.110.77.181/erika/trans7.stream</inputstream><urllow>cl002.stream</urllow><urlmed>cm002.stream</urlmed><urlhig>ch002.stream</urlhig><urlsdp>/live/cl002.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>3</channelid><channelalias>transtv</channelalias><channelindex>9</channelindex><inputstream>rtsp://119.110.77.181/erika/transtv.stream</inputstream><urllow>cl003.stream</urllow><urlmed>cm003.stream</urlmed><urlhig>ch003.stream</urlhig><urlsdp>/live/cl003.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>5</channelid><channelalias>metrotv</channelalias><channelindex>11</channelindex><inputstream>rtmp://202.158.49.58/mobile/_definst_/mp4:video_360p</inputstream><urllow>cl005.stream</urllow><urlmed>cm005.stream</urlmed><urlhig>ch005.stream</urlhig><urlsdp>/live/cl005.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>9</channelid><channelalias>antv</channelalias><channelindex>13</channelindex><inputstream>udp://0.0.0.0:10005</inputstream><urllow>cl009.stream</urllow><urlmed>cm009.stream</urlmed><urlhig>ch009.stream</urlhig><urlsdp>/live/cl009.sdp</urlsdp><channelmedia>rtp</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>1</channelid><channelalias>tvone</channelalias><channelindex>14</channelindex><inputstream>rtsp://119.110.77.181/erika/tvone.stream</inputstream><urllow>cl001.stream</urllow><urlmed>cm001.stream</urlmed><urlhig>ch001.stream</urlhig><urlsdp>/live/cl001.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>17</channelid><channelalias>kompastv</channelalias><channelindex>15</channelindex><inputstream>rtsp://119.110.77.181/erika/kompastv.stream</inputstream><urllow>cl017.stream</urllow><urlmed>cm017.stream</urlmed><urlhig>ch017.stream</urlhig><urlsdp>/live/cl017.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>8</channelid><channelalias>indosiar</channelalias><channelindex>16</channelindex><inputstream>rtmp://pub1.stream.telin.swiftserve.com/liveorigin/viocorp-sctv/indosiar-tv_2</inputstream><urllow>cl008.stream</urllow><urlmed>cm008.stream</urlmed><urlhig>ch008.stream</urlhig><urlsdp>/live/cl008.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>4</channelid><channelalias>sctv</channelalias><channelindex>18</channelindex><inputstream>rtmp://pub1.stream.telin.swiftserve.com/liveorigin/viocorp-sctv/sctv-tv_2</inputstream><urllow>cl004.stream</urllow><urlmed>cm004.stream</urlmed><urlhig>ch004.stream</urlhig><urlsdp>/live/cl004.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>145</channelid><channelalias>LBS K-Drama</channelalias><channelindex>26</channelindex><inputstream>Fields with * are required.</inputstream><urllow>cl145.stream</urllow><urlmed>cm145.stream</urlmed><urlhig>ch145.stream</urlhig><urlsdp>/live/cl145.stream</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description></description></channel>
+<channel>
+<channelid>83</channelid><channelalias>Safe TV</channelalias><channelindex>31</channelindex><inputstream>rtmp://175.103.51.2/live/safetv.stream</inputstream><urllow>cl083.stream</urllow><urlmed>cm083.stream</urlmed><urlhig>ch083.stream</urlhig><urlsdp>/live/cl083.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description>Channel News</description></channel>
+<channel>
+<channelid>132</channelid><channelalias>Dhamaweb</channelalias><channelindex>33</channelindex><inputstream>rtmp://119.110.77.181/dhamaweb/live.stream</inputstream><urllow>cl132.stream</urllow><urlmed>cm132.stream</urlmed><urlhig>ch132.stream</urlhig><urlsdp>/live/</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description>dhaweb tv</description></channel>
+<channel>
+<channelid>78</channelid><channelalias>KIDS 1</channelalias><channelindex>67</channelindex><inputstream>rtmp://175.103.51.2/live/kids1.stream</inputstream><urllow>cl078.stream</urllow><urlmed>cm078.stream</urlmed><urlhig>ch078.stream</urlhig><urlsdp>/live/cl078.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description>Channel Kids</description></channel>
+<channel>
+<channelid>82</channelid><channelalias>Home Choice</channelalias><channelindex>800</channelindex><inputstream>rtmp://175.103.51.2/live/homechoice.stream</inputstream><urllow>cl082.stream</urllow><urlmed>cm082.stream</urlmed><urlhig>ch082.stream</urlhig><urlsdp>/live/cl082.sdp</urlsdp><channelmedia>liverepeater</channelmedia><appname>live</appname><description>Channel Home</description></channel>
+</channels>
