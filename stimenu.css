@@ -5,7 +5,7 @@
 	margin:80px auto 0 auto;
 }
 .sti-menu li{
-	float:left;
+	float:center;
 	width:200px;
 	height:300px;
 	margin:1px;
@@ -57,13 +57,13 @@
 	top:30px;
 }
 .sti-icon-care{
-	background-image:url(../images/care.png);
+	background-image:url(https://lh5.googleusercontent.com/-MoATimFqnbs/VNM3sKVhfdI/AAAAAAAADHU/Imnzt1Nw-Ts/h120/mennu%2Bting.png);
 }
 .sti-icon-alternative{
-	background-image:url(../images/alternative.png);
+	background-image:url(https://lh5.googleusercontent.com/-glGntnPSjmY/VNM3sdjk_eI/AAAAAAAADHY/4sPA5KZwGzg/h120/menu%2Bjajal%2Bting.png);
 }
 .sti-icon-family{
-	background-image:url(../images/family.png);
+	background-image:url(https://lh5.googleusercontent.com/-ADA_e1SllvQ/VNM3sgxbEaI/AAAAAAAADHg/BcLwEwE_1IU/h120/info.png);
 }
 .sti-icon-info{
 	background-image:url(../images/info.png);
